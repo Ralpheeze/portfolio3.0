@@ -1,0 +1,145 @@
+/* unvisited link */
+.contact a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+.contact a:visited {
+    color: green;
+
+}
+
+/* mouse over link */
+.contact a:hover {
+    color: var(--bg-color);
+}
+
+/* selected link */
+.contact a:active {
+    color: black;
+}
+
+.contact {
+    color: white;
+}
+
+.contact-head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-me {
+    color: var(--main-color);
+}
+
+.contact-form {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+
+.input-control {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.message-guard {
+    position: relative;
+}
+
+.message-guard3 {
+    position: relative;
+
+    
+}
+
+.contact-text {
+    resize: none;
+    
+}
+
+.contact-form .message-guard .input-control .input-ctrl,
+.contact-form .message-guard .input-control .input-ctrl,
+.contact-form .message-guard3 .contact-text {
+    width: 100%;
+    height: 100%;    
+    color: white;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid var(--stripe-color);
+
+}
+
+.contact-form .message-guard .input-control .input-ctrl::placeholder,
+.contact-form .message-guard .input-control .input-ctrl::placeholder,
+.contact-form .message-guard3 .contact-text::placeholder {
+    color: white;
+
+}
+
+.span-focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: .6rem;
+    background-color: var(--trans-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.span-focus2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 90%;
+    border-radius: .6rem;
+    background-color: var(--trans-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.contact-form .message-guard .input-control .input-ctrl:focus~.span-focus,
+.contact-form .message-guard3 .contact-text:focus~.span-focus2 {
+    width: 100%;
+}
+
+.contact-button {
+    text-align: center;
+}
+
+.contact-btn {
+    position: relative;
+    border: .15rem solid var(--main-color);
+    border-radius: 9px;
+    border-color: rgb(5, 222, 149);
+    padding: 10px 40px;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    font-weight: 700;
+
+}
+
+.contact-btn:hover {
+    color: var(--bg-color);
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.contact-btn:hover::before {
+    width: 100%;
+}

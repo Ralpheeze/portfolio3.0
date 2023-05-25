@@ -1,0 +1,110 @@
+/* unvisited link */
+.about a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+.about a:visited {
+    color: green;
+
+}
+
+/* mouse over link */
+.about a:hover {
+    color: var(--bg-color);
+}
+
+/* selected link */
+.about a:active {
+    color: black;
+}
+
+.about {
+    background-color: rgb(1, 36, 26);
+}
+
+.about-me {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-title {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.me {
+    color: var(--main-color);
+}
+
+.about-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    object-fit: cover;
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+
+}
+
+.about-image .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid yellow;
+    border-left: .2rem solid var(--secondary-color);
+    border-bottom: .2rem solid yellow;
+    border-right: .2rem solid var(--secondary-color);    
+}
+
+.about-btn {
+    position: relative;
+    border: .15rem solid var(--main-color);
+    border-radius: 9px;
+    border-color: rgb(5, 222, 149);
+    padding: 10px 40px;
+    margin-right: 3rem;
+    font-weight: 700;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.about-btn:hover {
+    color: var(--bg-color);
+}
+
+.about-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.about-btn:hover::before {
+    width: 100%;
+}
+

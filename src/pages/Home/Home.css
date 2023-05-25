@@ -1,0 +1,156 @@
+/* unvisited link */
+.home a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+.home a:visited {
+    color: green;
+
+}
+
+/* mouse over link */
+.home a:hover {
+    color: var(--bg-color);
+}
+
+/* selected link */
+.home a:active {
+    color: black;
+}
+
+.home-left-col {
+    margin-top: 10rem;
+    color: white;
+}
+
+.home-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.home-head-animate {
+    position: relative;
+}
+
+.home-head {
+    color: transparent;
+    -webkit-text-stroke: .6px var(--main-color);
+    transition: .5s;
+    
+}
+
+.home-head:hover {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.firstBtn {
+    margin-bottom: 2rem;
+}
+
+.firstBtn, .secondBtn {
+    position: relative;
+    border: .15rem solid var(--main-color);
+    border-radius: 9px;
+    border-color: rgb(5, 222, 149);
+    padding: 10px 40px;
+    margin-right: 3rem;
+    font-weight: 700;
+    
+}
+
+.firstBtn:hover,
+.secondBtn:hover {
+    color: var(--bg-color);
+}
+
+.firstBtn::before,
+.secondBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.firstBtn:hover:before,
+.secondBtn:hover::before {
+    width: 100%;
+}
+
+.social-tags {
+    margin-top: 4rem;
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    margin-bottom: 5rem;
+}
+
+.social-href {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .15rem solid var(--main-color);
+    border-radius: 50%;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.social-href:hover {
+    color: var(--bg-color);
+}
+
+.social-href::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.social-href:hover::before {
+    width: 100%;
+}
+
+.my-image {
+    margin-top: 3rem;
+    text-align: center;
+    height: 100%; 
+    margin-bottom: 5rem;
+}
+
+.my-img {
+    height: 500px;
+    width: 350px;
+    background: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid yellow;
+    transition: 1s;
+}
+
+.my-img:hover {
+    background: black;
+    opacity: .4;
+}
+
+
+
+

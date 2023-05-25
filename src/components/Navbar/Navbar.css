@@ -1,0 +1,38 @@
+/* unvisited link */
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+nav a:visited {
+    color: white;
+
+}
+
+/* mouse over link */
+nav a:hover {
+    color: yellow;
+}
+
+/* selected link */
+nav a:active {
+    color: black;
+}
+
+.span-3lines {
+    color: white;
+}
+
+.my-name {
+    font-size: 24px;
+}
+
+.home-special:nth-child(1) {
+    color: green;
+}
+
+.nav-l {
+    margin-left: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,81 @@
+.education {
+    color: white;
+}
+
+.journey {
+    color: var(--main-color);
+}
+
+.edu-title {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.year {
+    color: var(--main-color);
+}
+
+
+.edu-head {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    color: var(--main-color);
+}
+
+.edu-control {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.edu-col-guard {
+    /* position: relative; */
+    border-left: .2rem solid var(--stripe-color);
+    padding: 0 20px 0 20px;
+}
+
+.edu-col2-guard {
+    position: relative;
+}
+
+.edu-col2-guard::before {
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: -2.35rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--stripe-color);
+    border-radius: 50%;
+}
+
+.edu-col{    
+    position: relative;
+    border: .2rem solid var(--stripe-color);
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    padding: 15px;
+    overflow: hidden;
+} 
+
+.edu-col::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--trans-color);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.edu-col:hover::before {
+    width: 100%;
+}
+
+.calendar-control {
+    margin-right: 10px;
+}

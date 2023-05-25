@@ -1,0 +1,111 @@
+.skill{
+    color: white;
+}
+
+.skill-head1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skill-head2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.span-skill {
+    color: var(--main-color);
+}
+
+.skill-content {
+    position: relative;
+    border: .2rem solid var(--stripe-color);
+    border-radius: .6rem;
+    padding: 15px;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    
+}
+
+.skill-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: var(--trans-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.skill-content:hover::before {
+    width: 100%;
+}
+
+.skill-title {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.percent {
+    color: var(--main-color);
+}
+
+.skill-bar {
+    height: 27px;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.span-bar {
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background: var(--stripe-color);
+}
+
+.skill-column:nth-child(1) .skill-content .skill-progress:nth-child(1) .skill-bar .span-bar {
+    width: 55%;
+}
+
+.skill-column:nth-child(1) .skill-content .skill-progress:nth-child(2) .skill-bar .span-bar {
+    width: 35%;
+}
+
+.skill-column:nth-child(1) .skill-content .skill-progress:nth-child(3) .skill-bar .span-bar {
+    width: 45%;
+}
+
+.skill-column:nth-child(1) .skill-content .skill-progress:nth-child(4) .skill-bar .span-bar {
+    width: 5%;
+}
+
+.skill-column:nth-child(1) .skill-content .skill-progress:nth-child(5) .skill-bar .span-bar {
+    width: 15%;
+}
+
+.skill-column:nth-child(2) .skill-content .skill-progress:nth-child(1) .skill-bar .span-bar {
+    width: 10%;
+}
+
+.skill-column:nth-child(2) .skill-content .skill-progress:nth-child(2) .skill-bar .span-bar {
+    width: 35%;
+}
+
+.skill-column:nth-child(2) .skill-content .skill-progress:nth-child(3) .skill-bar .span-bar {
+    width: 10%;
+}
+
+.skill-column:nth-child(2) .skill-content .skill-progress:nth-child(4) .skill-bar .span-bar {
+    width: 15%;
+}
+
+
+
