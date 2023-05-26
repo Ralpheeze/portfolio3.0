@@ -3,7 +3,7 @@ import './Skills.css';
 export default function Skills() {
   return (
     <div>
-        <div className="skill container" id='skill'>
+        <div className="skill container" id='skills'>
             <div><h3 className="skill-head1">My <span className="span-skill">Skills</span></h3></div>
             <div className="row ">
                 <div className="col-12 col-lg-6 skill-column">  
@@ -17,7 +17,7 @@ export default function Skills() {
                             </div>
 
                             <div className="skill-progress">
-                                <div><h3 className="skill-title">CSS<span className="percent">35%</span></h3></div>
+                                <div><h3 className="skill-title">Vanilla CSS<span className="percent">35%</span></h3></div>
                                 <div className="skill-bar"><span className="span-bar"></span></div>
                             </div>
 
@@ -27,7 +27,7 @@ export default function Skills() {
                             </div>
 
                             <div className="skill-progress">
-                                <div><h3 className="skill-title">Javascript<span className="percent">5%</span></h3></div>
+                                <div><h3 className="skill-title">JavaScript<span className="percent">5%</span></h3></div>
                                 <div className="skill-bar"><span className="span-bar"></span></div>
                             </div>
 

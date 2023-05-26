@@ -1,23 +1,35 @@
 /* unvisited link */
-nav a:link {
+.my-nav-bar a:link {
     color: white;
     text-decoration: none;
 }
 
 /* visited link */
-nav a:visited {
-    color: white;
+.my-nav-bar a:visited {
+    color: green;
 
 }
 
 /* mouse over link */
-nav a:hover {
+.my-nav-bar a:hover {
     color: yellow;
 }
 
 /* selected link */
-nav a:active {
+.my-nav-bar a:active {
     color: black;
+}
+
+.my-nav-bar {
+    box-shadow: 0px 7px 0px -5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+    background-color: var(--secondary-color);
+    z-index: 2;
+}
+
+.nav-control.sticky {
+    background: green;
 }
 
 .span-3lines {
@@ -33,6 +45,9 @@ nav a:active {
 }
 
 .nav-l {
+    
     margin-left: 20px;
     font-size: 20px;
 }
+
+

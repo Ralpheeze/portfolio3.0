@@ -1,4 +1,5 @@
 import './footer.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -9,7 +10,9 @@ export default function Footer() {
             </div>
 
             <div className="footer-icon">
-                <a className='footer-i' href="#"><i class="bi bi-arrow-up"></i></a>
+                <Link to='#home' smooth>
+                    <a className='footer-a' href="#"><i class="bi bi-arrow-up footer-i" ></i></a>
+                </Link>
             </div>
         </div>
 

@@ -76,7 +76,7 @@
 }
 
 .skill-column:nth-child(1) .skill-content .skill-progress:nth-child(2) .skill-bar .span-bar {
-    width: 35%;
+    width: 25%;
 }
 
 .skill-column:nth-child(1) .skill-content .skill-progress:nth-child(3) .skill-bar .span-bar {

@@ -3,7 +3,7 @@ import './Education.css';
 export default function Education() {
   return (
     <div>
-        <div className="education container">
+        <div className="education container" id='education'>
             <div><h2 className="edu-title">My <span className="journey">Journey</span> </h2></div>
             <div className="row book">            
                 <div className="col-12 col-lg-6 edu-control">
