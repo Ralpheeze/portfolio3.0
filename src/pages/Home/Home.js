@@ -20,9 +20,9 @@ export default function Home() {
                             </div>   
 
                             <div className="social-tags">
-                                <a className='social-href' href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a className='social-href' href="#"><i class="bi bi-twitter"></i></a>
-                                <a className='social-href' href="https://www.linkedin.com/in/ifeanyi-eze-965266253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bcb6jLyNSSrqNztiCjSMwaw%3D%3D"><i class="fa-brands fa-linkedin-in"></i></a>    
+                                <a className='social-href' href="#"><i class="fa-brands fa-instagram social-i"></i></a>
+                                <a className='social-href' href="#"><i class="bi bi-twitter social-i"></i></a>
+                                <a className='social-href' href="https://www.linkedin.com/in/ifeanyi-eze-965266253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bcb6jLyNSSrqNztiCjSMwaw%3D%3D"><i class="fa-brands fa-linkedin-in social-i"></i></a>    
                             </div>                 
                         </div>
 

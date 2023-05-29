@@ -9,7 +9,7 @@
 .edu-title {
     text-align: center;
     margin-top: 5rem;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 700;
 }
 
@@ -19,7 +19,7 @@
 
 
 .edu-head {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin-left: 40px;
     color: var(--main-color);
@@ -28,6 +28,10 @@
 .edu-control {
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.edu-context {
+    font-size: 18px;
 }
 
 .edu-col-guard {

@@ -3,13 +3,15 @@
 }
 
 .skill-head1 {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
 }
 
 .skill-head2 {
+    font-size: 35px;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
 }

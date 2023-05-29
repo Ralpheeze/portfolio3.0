@@ -21,12 +21,12 @@
 }
 
 .home-left-col {
-    margin-top: 15rem;
+    margin-top: 8rem;
     color: white;
 }
 
 .home-title {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
     background-color: white;
     background-image: linear-gradient(45deg, green,yellow,white );
@@ -59,6 +59,7 @@ property to the text as well. */
 }
 
 .home-head {
+    font-size: 30px;
     color: transparent;
     -webkit-text-stroke: .6px var(--main-color);
     transition: .5s;
@@ -66,16 +67,17 @@ property to the text as well. */
 }
 
 .home-head:hover {
-    font-size: 30px;
-    font-weight: bold;
-    
+    font-size: 50px;
+    font-weight: bold;   
 }
 
-.firstBtn {
-    margin-bottom: 2rem;
+.home-content {
+    font-size: 19px;
 }
 
 .firstBtn, .secondBtn {
+    font-size: 18px;
+    margin-bottom: 2rem;
     position: relative;
     border: .15rem solid var(--main-color);
     border-radius: 9px;
@@ -112,9 +114,8 @@ property to the text as well. */
 .social-tags {
     margin-top: 1rem;
     display: flex;
-    font-size: 20px;
     gap: 30px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .social-href {
@@ -151,6 +152,10 @@ property to the text as well. */
 
 .social-href:hover::before {
     width: 100%;
+}
+
+.social-i {
+    font-size: 20px;
 }
 
 .my-image {
